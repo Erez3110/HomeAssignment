@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MyFitnessPal_FinalProject",
+      "children" : [ {
+        "name" : "SanityTests.myFitnessPalMobile",
+        "children" : [ {
+          "name" : "Test 06: Add Water to Diary",
+          "uid" : "afdfbd7322917745",
+          "parentUid" : "ecf05e7b3670e9846416047c41e4e1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609177957932,
+            "stop" : 1609177977108,
+            "duration" : 19176
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test 07: Delete a Water Entry from Diary",
+          "uid" : "5a4441aaf62cb8b4",
+          "parentUid" : "ecf05e7b3670e9846416047c41e4e1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609178007129,
+            "stop" : 1609178030701,
+            "duration" : 23572
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test 08: Add a Note to Diary",
+          "uid" : "428d45479b670452",
+          "parentUid" : "ecf05e7b3670e9846416047c41e4e1de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609178105812,
+            "stop" : 1609178126374,
+            "duration" : 20562
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ecf05e7b3670e9846416047c41e4e1de"
+      } ],
+      "uid" : "a190bb93d041bd5a3d10fdb42301edfc"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

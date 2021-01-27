@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HomeAssignment">
+    <test name="HomeAssignmentTest">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="SanityTests.webTest_777">
+                <parameter name="url" value="https://www.777.com/"/>
+                <parameter name="platform" value="web"/>
+            </class>
+
+            <class name="SanityTests.webTest_w3schools">
+                <parameter name="url" value="https://www.w3schools.com/html/html_tables.asp"/>
+                <parameter name="platform" value="web"/>
+            </class>
+
+            <class name="SanityTests.apiTest">
+                <parameter name="platform" value="api"/>
+            </class>
+        </classes>
+    </test>
+</suite>

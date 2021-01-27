@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5a4441aaf62cb8b4",
+  "name" : "Test 07: Delete a Water Entry from Diary",
+  "time" : {
+    "start" : 1609178007129,
+    "stop" : 1609178030701,
+    "duration" : 23572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afdfbd7322917745",
+  "name" : "Test 06: Add Water to Diary",
+  "time" : {
+    "start" : 1609177957932,
+    "stop" : 1609177977108,
+    "duration" : 19176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "428d45479b670452",
+  "name" : "Test 08: Add a Note to Diary",
+  "time" : {
+    "start" : 1609178105812,
+    "stop" : 1609178126374,
+    "duration" : 20562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

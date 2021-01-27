@@ -1,0 +1,143 @@
+{
+  "d650eab43f1a39fb786cb6d9152e75b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "5a4441aaf62cb8b4",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/10/allure/#testresult/5a4441aaf62cb8b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178007129,
+        "stop" : 1609178030701,
+        "duration" : 23572
+      }
+    }, {
+      "uid" : "60dddf9a17b3a71c",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/9/allure/#testresult/60dddf9a17b3a71c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178007129,
+        "stop" : 1609178030701,
+        "duration" : 23572
+      }
+    }, {
+      "uid" : "5471b7a8828c85e",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/8/allure/#testresult/5471b7a8828c85e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178007129,
+        "stop" : 1609178030701,
+        "duration" : 23572
+      }
+    }, {
+      "uid" : "8bb278b3be62e7bd",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/7/allure/#testresult/8bb278b3be62e7bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178007129,
+        "stop" : 1609178030701,
+        "duration" : 23572
+      }
+    } ]
+  },
+  "8d3ed07a74b2be9c3a22c513af657f41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "afdfbd7322917745",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/10/allure/#testresult/afdfbd7322917745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609177957932,
+        "stop" : 1609177977108,
+        "duration" : 19176
+      }
+    }, {
+      "uid" : "4ff75670935bd8df",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/9/allure/#testresult/4ff75670935bd8df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609177957932,
+        "stop" : 1609177977108,
+        "duration" : 19176
+      }
+    }, {
+      "uid" : "88f56e7b4f6102a9",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/8/allure/#testresult/88f56e7b4f6102a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609177957932,
+        "stop" : 1609177977108,
+        "duration" : 19176
+      }
+    }, {
+      "uid" : "85ca93f2acf5a52e",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/7/allure/#testresult/85ca93f2acf5a52e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609177957932,
+        "stop" : 1609177977108,
+        "duration" : 19176
+      }
+    } ]
+  },
+  "3ec5badc07535db2d39eb92a9c0e0e43" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "428d45479b670452",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/10/allure/#testresult/428d45479b670452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178105812,
+        "stop" : 1609178126374,
+        "duration" : 20562
+      }
+    }, {
+      "uid" : "a062abaefa22e598",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/9/allure/#testresult/a062abaefa22e598",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178105812,
+        "stop" : 1609178126374,
+        "duration" : 20562
+      }
+    }, {
+      "uid" : "a5a97dd0053b8271",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/8/allure/#testresult/a5a97dd0053b8271",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178105812,
+        "stop" : 1609178126374,
+        "duration" : 20562
+      }
+    }, {
+      "uid" : "7d8587a1f9078dad",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/7/allure/#testresult/7d8587a1f9078dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178105812,
+        "stop" : 1609178126374,
+        "duration" : 20562
+      }
+    } ]
+  }
+}

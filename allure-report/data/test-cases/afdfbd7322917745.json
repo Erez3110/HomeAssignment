@@ -1,0 +1,275 @@
+{
+  "uid" : "afdfbd7322917745",
+  "name" : "Test 06: Add Water to Diary",
+  "fullName" : "SanityTests.myFitnessPalMobile.test06_addWater",
+  "historyId" : "8d3ed07a74b2be9c3a22c513af657f41",
+  "time" : {
+    "start" : 1609177957932,
+    "stop" : 1609177977108,
+    "duration" : 19176
+  },
+  "description" : "Add Water Entry to Diary",
+  "descriptionHtml" : "<p>Add Water Entry to Diary</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1609177943844,
+      "stop" : 1609177957852,
+      "duration" : 14008
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Add Water Entry to Diary",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add Water to Diary",
+      "time" : {
+        "start" : 1609177958013,
+        "stop" : 1609177974616,
+        "duration" : 16603
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609177960916,
+          "stop" : 1609177961714,
+          "duration" : 798
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (2fb8c9e6-983c-4185-b0dd-173361c1cd05)] -> id: action_diary]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609177964995,
+          "stop" : 1609177965668,
+          "duration" : 673
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (2fb8c9e6-983c-4185-b0dd-173361c1cd05)] -> xpath: //*[@text='Add Water']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Send Text to TextBox",
+        "time" : {
+          "start" : 1609177969540,
+          "stop" : 1609177972341,
+          "duration" : 2801
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (2fb8c9e6-983c-4185-b0dd-173361c1cd05)] -> id: water_value]"
+        }, {
+          "name" : "value",
+          "value" : "10"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609177973935,
+          "stop" : 1609177974616,
+          "duration" : 681
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (2fb8c9e6-983c-4185-b0dd-173361c1cd05)] -> xpath: //*[@contentDescription='אישור']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cups",
+        "value" : "10"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1609177977096,
+        "stop" : 1609177977105,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "10"
+      }, {
+        "name" : "expectedValue",
+        "value" : "10"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1609177977244,
+      "stop" : 1609177977682,
+      "duration" : 438
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1609177977691,
+      "stop" : 1609177982058,
+      "duration" : 4367
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "test06_addWater"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal_FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VUF2N1B"
+  }, {
+    "name" : "thread",
+    "value" : "22832@DESKTOP-VUF2N1B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4ff75670935bd8df",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/9/allure/#testresult/4ff75670935bd8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609177957932,
+          "stop" : 1609177977108,
+          "duration" : 19176
+        }
+      }, {
+        "uid" : "88f56e7b4f6102a9",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/8/allure/#testresult/88f56e7b4f6102a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609177957932,
+          "stop" : 1609177977108,
+          "duration" : 19176
+        }
+      }, {
+        "uid" : "85ca93f2acf5a52e",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/7/allure/#testresult/85ca93f2acf5a52e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609177957932,
+          "stop" : 1609177977108,
+          "duration" : 19176
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "afdfbd7322917745.json",
+  "parameterValues" : [ ]
+}

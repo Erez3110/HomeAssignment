@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests.myFitnessPalMobile",
+    "children" : [ {
+      "name" : "test06_addWater",
+      "uid" : "afdfbd7322917745",
+      "parentUid" : "ee76b663aa33abff3d1262db01c313cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609177957932,
+        "stop" : 1609177977108,
+        "duration" : 19176
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test07_removeWater",
+      "uid" : "5a4441aaf62cb8b4",
+      "parentUid" : "ee76b663aa33abff3d1262db01c313cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178007129,
+        "stop" : 1609178030701,
+        "duration" : 23572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test08_addNote",
+      "uid" : "428d45479b670452",
+      "parentUid" : "ee76b663aa33abff3d1262db01c313cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609178105812,
+        "stop" : 1609178126374,
+        "duration" : 20562
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "SanityTests.myFitnessPalMobile"
+  } ]
+}

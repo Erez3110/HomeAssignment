@@ -1,0 +1,305 @@
+{
+  "uid" : "428d45479b670452",
+  "name" : "Test 08: Add a Note to Diary",
+  "fullName" : "SanityTests.myFitnessPalMobile.test08_addNote",
+  "historyId" : "3ec5badc07535db2d39eb92a9c0e0e43",
+  "time" : {
+    "start" : 1609178105812,
+    "stop" : 1609178126374,
+    "duration" : 20562
+  },
+  "description" : "Add a Food or Exercise Notes to Diary",
+  "descriptionHtml" : "<p>Add a Food or Exercise Notes to Diary</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1609178089286,
+      "stop" : 1609178105755,
+      "duration" : 16469
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Add a Food or Exercise Notes to Diary",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add Note to Diary",
+      "time" : {
+        "start" : 1609178105871,
+        "stop" : 1609178122550,
+        "duration" : 16679
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609178108391,
+          "stop" : 1609178109021,
+          "duration" : 630
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> id: action_diary]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609178111761,
+          "stop" : 1609178112446,
+          "duration" : 685
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> xpath: //*[contains(text(),'Notes')]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609178114644,
+          "stop" : 1609178115336,
+          "duration" : 692
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> xpath: //*[contains(text(),'Food Notes')]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Send Text to TextBox",
+        "time" : {
+          "start" : 1609178118919,
+          "stop" : 1609178120791,
+          "duration" : 1872
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> xpath: //*[contains(text(),'Enter')]]"
+        }, {
+          "name" : "value",
+          "value" : "Don't eat the whole cake :)"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609178122015,
+          "stop" : 1609178122550,
+          "duration" : 535
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> xpath: //*[@contentDescription='Save']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "type",
+        "value" : "food"
+      }, {
+        "name" : "content",
+        "value" : "Don't eat the whole cake :)"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Element Does Not Exist",
+      "time" : {
+        "start" : 1609178125737,
+        "stop" : 1609178126371,
+        "duration" : 634
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elements",
+        "value" : "[[[AndroidDriver:  on ANY (4104c601-7f7f-4cd4-aea0-5df1ffa34c8a)] -> xpath: //*[@text='Food' and @id='txtItemDescription']]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "true"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1609178127344,
+      "stop" : 1609178132355,
+      "duration" : 5011
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1609178126534,
+      "stop" : 1609178127332,
+      "duration" : 798
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "test08_addNote"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MyFitnessPal_FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myFitnessPalMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-VUF2N1B"
+  }, {
+    "name" : "thread",
+    "value" : "25796@DESKTOP-VUF2N1B.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9f19bd5a7e7a8e48",
+      "status" : "broken",
+      "statusDetails" : "Can't locate an element by this strategy: Locator map: \n- native content: \"By.xpath: //*[contains(text(),'Notes')]\" \n- html content: \"by id or name \"notes_btn\"\"\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'DESKTOP-VUF2N1B', ip: '192.168.14.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1609177876351,
+        "stop" : 1609177890825,
+        "duration" : 14474
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a062abaefa22e598",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/9/allure/#testresult/a062abaefa22e598",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609178105812,
+          "stop" : 1609178126374,
+          "duration" : 20562
+        }
+      }, {
+        "uid" : "a5a97dd0053b8271",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/8/allure/#testresult/a5a97dd0053b8271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609178105812,
+          "stop" : 1609178126374,
+          "duration" : 20562
+        }
+      }, {
+        "uid" : "7d8587a1f9078dad",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20MyFitnessPal%20Web/7/allure/#testresult/7d8587a1f9078dad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609178105812,
+          "stop" : 1609178126374,
+          "duration" : 20562
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "428d45479b670452.json",
+  "parameterValues" : [ ]
+}

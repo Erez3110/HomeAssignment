@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment>
+    <!-- TimeOut -->
+    <timeout>5</timeout>
+
+    <!--Platform-->
+    <platformType>web</platformType>
+
+    <!--Web-->
+    <excel_w3schools>w3schools_Table.xls</excel_w3schools>
+
+    <!--API-->
+    <api_host>imap.gmail.com</api_host>
+    <mailStoreType>imap</mailStoreType>
+    <user>erezto.test@gmail.com</user>
+    <appPassword>cwnzbvgqqlclmizx</appPassword>
+</environment>
