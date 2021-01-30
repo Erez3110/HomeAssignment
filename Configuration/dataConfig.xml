@@ -6,7 +6,7 @@
     <!--Platform-->
     <platformType>web</platformType>
 
-    <!--Web-->
+    <!--Data Source-->
     <excel_w3schools>w3schools_Table.xls</excel_w3schools>
 
     <!--API-->
